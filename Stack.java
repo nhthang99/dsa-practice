@@ -1,5 +1,8 @@
 public class Stack<T>{
 
+    private Node headNode = null; // top of stack
+    private int length = 0; // number of items
+
     private class Node{
         T item;
         Node next;
@@ -9,9 +12,6 @@ public class Stack<T>{
             this.next = null;
         }
     }
-
-    private Node headNode = null; // top of stack
-    private int length = 0; // number of items
 
     public void push(final T item) {
         final Node newNode = new Node(item);
