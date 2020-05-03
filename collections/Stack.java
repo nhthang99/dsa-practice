@@ -1,3 +1,5 @@
+package collections;
+
 public class Stack<T>{
 
     private Node headNode = null; // top of stack
