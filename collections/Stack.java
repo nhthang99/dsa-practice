@@ -4,6 +4,7 @@ public class Stack<T>{
 
     private Node headNode = null; // top of stack
     private int length = 0; // number of items
+    private int max_length = 100;
 
     private class Node{
         T item;
@@ -40,6 +41,10 @@ public class Stack<T>{
 
     public boolean isEmpty(){
         return this.length == 0;
+    }
+
+    public boolean isFull(){
+        return this.length == this.max_length;
     }
 
     public int length(){

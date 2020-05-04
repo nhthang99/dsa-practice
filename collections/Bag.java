@@ -28,11 +28,13 @@ public class Bag<T> {
     private class BagIterator implements Iterator<T>{
         private Node currentNode = headNode;
 
-        public boolean hasNext(){
+        @Override
+        public boolean hasNext() {
             return this.currentNode != null;
         }
 
-        public T next(){
+        @Override
+        public T next() {
             Node node = this.currentNode;
             this.currentNode = this.currentNode.next;
             return node.item;
