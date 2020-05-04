@@ -39,6 +39,12 @@ public class Stack<T>{
         return null;
     }
 
+    public T peek(){
+        if (!isEmpty())
+            return this.headNode.item;
+        return null;
+    }
+
     public boolean isEmpty(){
         return this.length == 0;
     }

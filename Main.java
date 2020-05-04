@@ -1,21 +1,14 @@
-import java.util.Iterator;
 import collections.*;
 
 public class Main {
     public static void main(final String[] args) {
-        final Queue<String> queue = new Queue<String>();
-        final String str = "it was - the best - of times - - - it was -- the - -";
-        for (String word : str.split(" ")) {
-            if (!word.contains("-"))
-                queue.push(word);
-        }
+        Stack<Integer> stack = new Stack<Integer>();
+        Integer[] list = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
-        String sequence = "";
-        while (!queue.isEmpty()) {
-            String word = queue.pop();
-            sequence += word + " ";
+        for (int i = 0; i < list.length; i++){
+            stack.push(list[i]);
         }
-
-        System.out.println(sequence);
+        System.out.println(stack.peek());
+        System.out.println(stack.length());
     }
 }
