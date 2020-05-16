@@ -1,9 +1,7 @@
 import java.util.ArrayList;
 
 import collections.*;
-import sort.Insertion;
-import sort.Selection;
-import sort.Bubble;
+import sort.*;
 
 public class Main {
 

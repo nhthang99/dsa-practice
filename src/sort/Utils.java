@@ -1,7 +1,7 @@
 package sort;
 import java.util.ArrayList;
 
-public class Calculator<T> {
+public class Utils<T> {
 
     protected int compareTo(T a, T b) {
         if (a instanceof Number && b instanceof Number) {

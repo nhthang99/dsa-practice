@@ -4,9 +4,9 @@ import sort.Sort;
 
 import java.util.ArrayList;
 
-import sort.Calculator;
+import sort.Utils;
 
-public class Selection<T> extends Calculator<T> implements Sort<T> {
+public class Selection<T> extends Utils<T> implements Sort<T> {
 
     @Override
     public ArrayList<T> sort(ArrayList<T> array) {

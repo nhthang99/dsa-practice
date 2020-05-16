@@ -2,7 +2,7 @@ package sort;
 
 import java.util.ArrayList;
 
-public class Insertion<T> extends Calculator<T> implements Sort<T> {
+public class Insertion<T> extends Utils<T> implements Sort<T> {
 
 	@Override
 	public ArrayList<T> sort(ArrayList<T> array) {
