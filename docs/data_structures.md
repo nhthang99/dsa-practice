@@ -4,6 +4,7 @@
 Trong computer science, data structure là một format dùng để tổ chức, quản lí và lưu trữ data để truy xuất và điều chỉnh dễ dàng. Cụ thể hơn, data structure là một collection của data values, và các element bên trong data structure có quan hệ với nhau.
 ## Types of data structures?
 ![Types of data structures](imgs/types_of_data_structures.png)
+
 Data structure gồm 2 loại chính:
 - Linear data structure
 - Non-linear data structure
@@ -45,3 +46,7 @@ Stack là một container of objects nơi mà việc insert hoặc remove đư�
 Queue là một container of objects nơi mà việc insert hoặc remove được thực hiện dựa trên FIFO(first in first out) principle.
 
 ### Non-linear data structure
+
+#### Tree data structure
+1. Binary tree
+Binary là một tree data structure cái mà mỗi node có nhiều nhất 2 node con, 
