@@ -3,7 +3,6 @@ package com.hcmut.nhthang.sort;
 import java.util.ArrayList;
 
 public class Quick<T> extends Utils<T> implements Sort<T>{
-
     @Override
     public ArrayList<T> sort(ArrayList<T> array) {
         int length = array.size();
